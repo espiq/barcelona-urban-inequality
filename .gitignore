@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw downloads (~400 MB) and the DuckDB warehouse are reproducible with
+# `python -m bcn download` / `python -m bcn education`
+data/raw/
+data/warehouse/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
