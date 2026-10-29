@@ -1,0 +1,242 @@
+{
+  "richest_barri": {
+    "barri": "les Tres Torres",
+    "district": "Sarrià-Sant Gervasi",
+    "income_pc": 49218.970176300754
+  },
+  "poorest_barri": {
+    "barri": "Ciutat Meridiana",
+    "district": "Nou Barris",
+    "income_pc": 13351.91360412637
+  },
+  "richest_poorest_ratio": 3.686285849025399,
+  "growth_q1_pct": 25.180094724526427,
+  "growth_q5_pct": 37.20778202406862,
+  "gini_first": 0.13585304544080112,
+  "gini_last": 0.15888673737327486,
+  "p90p10_first": 1.8865995330370104,
+  "p90p10_last": 2.0551208167710295,
+  "theil_shares_last": {
+    "theil_between_districts": 0.6513,
+    "theil_between_barris_within_districts": 0.2004,
+    "theil_within_barris": 0.1483
+  },
+  "series_audit": [
+    {
+      "year": 2016,
+      "mean_growth_pct": 2.86,
+      "sd_growth_pp": 3.899,
+      "corr_growth_vs_prev_level": 0.211,
+      "rank_persistence_spearman": 0.99
+    },
+    {
+      "year": 2017,
+      "mean_growth_pct": 0.869,
+      "sd_growth_pp": 4.06,
+      "corr_growth_vs_prev_level": 0.001,
+      "rank_persistence_spearman": 0.987
+    },
+    {
+      "year": 2018,
+      "mean_growth_pct": 1.499,
+      "sd_growth_pp": 3.57,
+      "corr_growth_vs_prev_level": -0.102,
+      "rank_persistence_spearman": 0.988
+    },
+    {
+      "year": 2019,
+      "mean_growth_pct": 4.669,
+      "sd_growth_pp": 3.911,
+      "corr_growth_vs_prev_level": 0.067,
+      "rank_persistence_spearman": 0.989
+    },
+    {
+      "year": 2020,
+      "mean_growth_pct": -6.935,
+      "sd_growth_pp": 3.845,
+      "corr_growth_vs_prev_level": -0.179,
+      "rank_persistence_spearman": 0.99
+    },
+    {
+      "year": 2021,
+      "mean_growth_pct": 5.96,
+      "sd_growth_pp": 5.435,
+      "corr_growth_vs_prev_level": -0.684,
+      "rank_persistence_spearman": 0.985
+    },
+    {
+      "year": 2022,
+      "mean_growth_pct": 4.582,
+      "sd_growth_pp": 4.198,
+      "corr_growth_vs_prev_level": 0.002,
+      "rank_persistence_spearman": 0.983
+    },
+    {
+      "year": 2023,
+      "mean_growth_pct": 11.902,
+      "sd_growth_pp": 7.161,
+      "corr_growth_vs_prev_level": 0.63,
+      "rank_persistence_spearman": 0.985
+    }
+  ],
+  "beta_convergence": [
+    {
+      "specification": "Barris, absolute (n=73)",
+      "verdict": "divergence",
+      "beta": 0.010186065480376151,
+      "se_robust": 0.004971467817511736,
+      "p_value": 0.04047140116584934,
+      "r2": 0.096066807876235,
+      "n": 73,
+      "speed_pct_per_year": NaN,
+      "half_life_years": NaN
+    },
+    {
+      "specification": "Sections, absolute (n=1,068)",
+      "verdict": "divergence",
+      "beta": 0.012478958535572312,
+      "se_robust": 0.004888676168287737,
+      "p_value": 0.01069144417044603,
+      "r2": 0.08134931651614385,
+      "n": 1068,
+      "speed_pct_per_year": NaN,
+      "half_life_years": NaN
+    },
+    {
+      "specification": "Sections, + non-EU share + district FE",
+      "verdict": "no significant relation",
+      "beta": 0.00025179972982884583,
+      "se_robust": 0.0036689337860778353,
+      "p_value": 0.9452839641577173,
+      "r2": 0.42116216978582566,
+      "n": 1068,
+      "speed_pct_per_year": NaN,
+      "half_life_years": NaN
+    }
+  ],
+  "beta_by_window": [
+    {
+      "window": "2015-2019",
+      "verdict": "divergence",
+      "beta": 0.012526367994606557,
+      "p_value": 0.030657486765007673
+    },
+    {
+      "window": "2015-2020",
+      "verdict": "divergence",
+      "beta": 0.0077140749558237435,
+      "p_value": 0.01869532065725295
+    },
+    {
+      "window": "2015-2022",
+      "verdict": "convergence",
+      "beta": -0.012932805935616614,
+      "p_value": 1.343744080167886e-10
+    },
+    {
+      "window": "2015-2023",
+      "verdict": "divergence",
+      "beta": 0.012478958535572312,
+      "p_value": 0.01069144417044603
+    },
+    {
+      "window": "2019-2023",
+      "verdict": "divergence",
+      "beta": 0.01221653234732273,
+      "p_value": 0.0007774041811021006
+    },
+    {
+      "window": "2021-2023",
+      "verdict": "divergence",
+      "beta": 0.10108877058547502,
+      "p_value": 3.1618055976082936e-06
+    }
+  ],
+  "covid_shock_d1": -8.138071365159563,
+  "covid_shock_d10": -10.365657715876104,
+  "corr_shock_recovery": -0.5072455009875044,
+  "moran_sections_last": 0.855785302379968,
+  "moran_barris_last": 0.6375639166065611,
+  "lisa_level_counts": {
+    "Not significant": 751,
+    "High-High": 162,
+    "Low-Low": 154,
+    "Low-High": 1
+  },
+  "lisa_growth_counts": {
+    "Not significant": 887,
+    "High-High": 113,
+    "Low-Low": 58,
+    "High-Low": 5,
+    "Low-High": 5
+  },
+  "ols_sensitivity_r2": 0.9429465068903701,
+  "ols_r2": 0.9539242969263654,
+  "ols_adj_r2": 0.9504858116223628,
+  "max_vif": 9.706632974936227,
+  "lm_diagnostics": [
+    {
+      "test": "Moran's I (residuals)",
+      "statistic": -0.05456582488073559,
+      "p_value": 0.8674460039597061
+    },
+    {
+      "test": "LM lag",
+      "statistic": 0.7541554687575661,
+      "p_value": 0.38516376551117837
+    },
+    {
+      "test": "Robust LM lag",
+      "statistic": 1.4201298456109341,
+      "p_value": 0.23338203230979804
+    },
+    {
+      "test": "LM error",
+      "statistic": 0.5453422339555968,
+      "p_value": 0.4602271251968355
+    },
+    {
+      "test": "Robust LM error",
+      "statistic": 1.211316610808965,
+      "p_value": 0.27107152717086314
+    }
+  ],
+  "spatial_fit": [
+    {
+      "model": "OLS",
+      "log_likelihood": 100.26333990455748,
+      "aic": -188.52667980911497,
+      "r2": 0.9539242969263653
+    },
+    {
+      "model": "Spatial lag (ML)",
+      "log_likelihood": 100.6219143606105,
+      "aic": -187.243828721221,
+      "r2": 0.9543982091412336
+    },
+    {
+      "model": "Spatial error (ML)",
+      "log_likelihood": 100.74629029407117,
+      "aic": -189.49258058814235,
+      "r2": 0.95359135829107
+    }
+  ],
+  "typology": {
+    "k": 3,
+    "silhouette": 0.299088424039708,
+    "ari_vs_ward": 0.536237137372268,
+    "sizes": {
+      "A": 8,
+      "B": 33,
+      "C": 32
+    }
+  },
+  "tourist_flats_total": 10719,
+  "tourist_places_total": 61833,
+  "tourist_top10_share": 0.6822408746138793,
+  "tourist_gini": 0.6020344550624153,
+  "corr_tourism_income_spearman": 0.648853212837949,
+  "city_population_last": 1660732,
+  "city_income_first": 20319.565156084493,
+  "city_income_last": 26071.45486689002
+}

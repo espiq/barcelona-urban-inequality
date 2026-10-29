@@ -1,0 +1,7 @@
+,log_income,share_tertiary_2023,share_non_eu,log_cadastral_m2,log_tourist_intensity,log_density
+log_income,1.0,0.947,-0.481,0.894,0.586,0.014
+share_tertiary_2023,0.947,1.0,-0.316,0.929,0.746,0.084
+share_non_eu,-0.481,-0.316,1.0,-0.21,0.081,0.199
+log_cadastral_m2,0.894,0.929,-0.21,1.0,0.756,0.162
+log_tourist_intensity,0.586,0.746,0.081,0.756,1.0,0.298
+log_density,0.014,0.084,0.199,0.162,0.298,1.0

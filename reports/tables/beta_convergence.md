@@ -1,0 +1,5 @@
+| specification                          | verdict                 |   beta |   se_robust |   p_value |     r2 |    n |   speed_pct_per_year |   half_life_years |
+|:---------------------------------------|:------------------------|-------:|------------:|----------:|-------:|-----:|---------------------:|------------------:|
+| Barris, absolute (n=73)                | divergence              | 0.0102 |      0.0050 |    0.0405 | 0.0961 |   73 |                  nan |               nan |
+| Sections, absolute (n=1,068)           | divergence              | 0.0125 |      0.0049 |    0.0107 | 0.0813 | 1068 |                  nan |               nan |
+| Sections, + non-EU share + district FE | no significant relation | 0.0003 |      0.0037 |    0.9453 | 0.4212 | 1068 |                  nan |               nan |

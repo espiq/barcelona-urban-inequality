@@ -1,0 +1,17 @@
+stage,area,sector,gender,students,share_overage
+eso4,Barcelona,private,female,18639.0,0.05762111701271527
+eso4,Barcelona,private,male,18890.0,0.08935944944415035
+eso4,Barcelona,public,female,11032.0,0.09544960116026106
+eso4,Barcelona,public,male,11453.0,0.13428795948659739
+eso4,Rest of Catalonia,private,female,43124.0,0.0543780725350153
+eso4,Rest of Catalonia,private,male,44494.0,0.0832471793949746
+eso4,Rest of Catalonia,public,female,101647.0,0.09435595738191978
+eso4,Rest of Catalonia,public,male,103598.0,0.13553350450780904
+primary6,Barcelona,private,female,16622.0,0.02280110696667068
+primary6,Barcelona,private,male,16502.0,0.032662707550599926
+primary6,Barcelona,public,female,12945.0,0.025724217844727695
+primary6,Barcelona,public,male,13111.0,0.037907100907634814
+primary6,Rest of Catalonia,private,female,41664.0,0.02068932411674347
+primary6,Rest of Catalonia,private,male,42105.0,0.030210188813680084
+primary6,Rest of Catalonia,public,female,102302.0,0.03231608375202831
+primary6,Rest of Catalonia,public,male,104612.0,0.03965128283562115

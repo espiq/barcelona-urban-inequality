@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_income   R-squared:                       0.954
+Model:                            OLS   Adj. R-squared:                  0.950
+Method:                 Least Squares   F-statistic:                     271.4
+Date:                Thu, 22 Oct 2026   Prob (F-statistic):           4.85e-43
+Time:                        12:35:09   Log-Likelihood:                 100.26
+No. Observations:                  73   AIC:                            -188.5
+Df Residuals:                      67   BIC:                            -174.8
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                    10.0789      0.009   1172.765      0.000      10.062      10.096
+share_tertiary_2023       0.2191      0.036      6.082      0.000       0.148       0.290
+share_non_eu             -0.0452      0.026     -1.713      0.087      -0.097       0.007
+log_cadastral_m2          0.0851      0.037      2.309      0.021       0.013       0.157
+log_tourist_intensity    -0.0562      0.014     -4.135      0.000      -0.083      -0.030
+log_density              -0.0026      0.007     -0.379      0.705      -0.016       0.011
+==============================================================================
+Omnibus:                        4.815   Durbin-Watson:                   1.876
+Prob(Omnibus):                  0.090   Jarque-Bera (JB):                5.600
+Skew:                          -0.205   Prob(JB):                       0.0608
+Kurtosis:                       4.293   Cond. No.                         6.67
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
